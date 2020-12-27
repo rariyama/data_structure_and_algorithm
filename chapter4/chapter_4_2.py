@@ -5,7 +5,7 @@ class Stack():
     def push(self, value: int):
         self.array.append(value)
 
-    def pop(self):
+    def pop(self) -> int:
         value = self.array[-1]
         self.array = self.array[0:-1]
         return value
