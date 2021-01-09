@@ -3,6 +3,11 @@ import unittest
 # each element of list
 class Cell:
     def __init__(self, value):
+        '''
+        self.value means actural value array has.
+        self.next means pointer to the next elements of array
+        value|next -> value|next ...
+        '''
         self.value = value
         self.next = None
 
